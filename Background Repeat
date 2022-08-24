@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>background-repeat property</title>
+    <link href="repeatCase.css" rel="stylesheet">
+</head>
+<body>
+    <h2>background-repeat: repeat; </h2>
+    <div id="repeat"></div>
+ 
+    <h2>background-repeat: repeat-x;</h2>
+    <div id="repeat-x"></div>
+ 
+    <h2>background-repeat: repeat-y;</h2>
+    <div id="repeat-y"></div>
+ 
+    <h2>background-repeat: space;</h2>
+    <div id="space"></div>
+ 
+    <h2>background-repeat: round;</h2>
+    <div id="round"></div>
+ 
+    <h2>background-repeat: no-repeat;</h2>
+    <div id="no-repeat"></div>
+ 
+    <h2>background-repeat: initial;</h2>
+    <div id=""></div>
+</body>
+</html>
