@@ -1,0 +1,24 @@
+!!! Linear Gradient Masking !!!
+
+
+#masked{
+-webkit-mask-image: linear-gradient(to bottom, transparent 5%, black 75%);
+mask-image: linear-gradient(to bottom, transparent 5%, black 75%); 
+}
+
+!!! Radial Gradient Masking !!!
+
+
+#masked{
+-webkit-mask-image: radial-gradient(ellipse 20% 90% at 27% 50%, black 40%, transparent 50%);
+mask-image: radial-gradient(ellipse 20% 90% at 27% 50%, black 40%, transparent 50%);
+ }
+ 
+ 
+!!!Masking with Images!!!
+
+
+#masked{
+-webkit-mask-image: url(https://images.png);
+mask-image: url(https://images.png);
+}
