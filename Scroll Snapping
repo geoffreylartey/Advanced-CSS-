@@ -1,0 +1,73 @@
+!!! HTML !!!
+
+<div class="support-scrollsnap"></div>
+
+<div class="scroll-container">
+  <div class="scroll-area">1</div>
+  <div class="scroll-area">2</div>
+  <div class="scroll-area">3</div>
+  <div class="scroll-area">4</div>
+</div>
+
+
+!!! CSS !!!
+
+<div class="support-scrollsnap"></div>
+
+<div class="scroll-container">
+  <div class="scroll-area">1</div>
+  <div class="scroll-area">2</div>
+  <div class="scroll-area">3</div>
+  <div class="scroll-area">4</div>
+</div>
+
+
+!!! JS !!!
+
+// https://rawgit.com/ckrack/scrollsnap-polyfill/develop/dist/scrollsnap-polyfill.bundled.js
+
+
+!!! CODE !!! 
+
+
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Scroll-snap-type</title>
+        <link href="snap.css" rel="stylesheet">
+    </head>
+   <style>
+ .y-scrolling {
+      scroll-snap-type: y mandatory;
+  	}
+  </style>
+    <body>
+        <div class="box y-scrolling">
+            <div>Eat</div>
+            <div>Sleep</div>
+            <div>Code</div>
+            <div>Repeat</div>
+          </div>
+    </body>
+</html>
