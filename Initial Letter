@@ -1,0 +1,62 @@
+$body-fontsize: calc(80% + 0.35vw);
+$cap-fallback: calc(1100% + 0.35vw);
+.intro::first-letter {
+	font-size: $cap-fallback;
+	float: left;
+	line-height: 1;
+	margin-top: .2rem;
+	margin-left: -.5rem;
+	@supports (initial-letter: 7) or (-webkit-initial-letter: 7) {
+    	-webkit-initial-letter: 7;
+    	initial-letter: 7;		
+		color: hsl(41, 68%, 51%);
+
+		margin-left: unset;
+	}
+}
+main,
+header {
+	margin: 0 auto;
+	max-width: 68vw;
+}
+
+main {
+	column-count: 2;
+	column-gap: 3vw;
+}
+
+.excerpt {
+	font-size: 1.3rem;
+	font-weight: 600;
+	line-height: 1.8;
+	margin: 0 0 1.5rem;
+}
+
+h1 {
+	font-size: 6.4rem;
+	font-weight: 200;
+	line-height: 1.1;
+	margin: 0 0 .4rem;
+	padding: 0;
+}
+
+p {
+	margin: 0 0 1.5rem;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Martel:200,600" rel="stylesheet');
+
+body {
+	font-family: 'Martel', serif;		
+	font-size: $body-fontsize;
+	font-weight: 200;
+	line-height: 2;
+	margin: 2rem auto;
+	padding: 2rem;
+	
+	&:before {
+		background: linear-gradient(90deg, hsl(105, 0%, 100%) 0%, hsl(45, 100%, 70%) 35%, hsl(45, 100%, 70%) 65%, hsl(105, 0%, 100%) 100%);
+		text-transform: none;
+	}
+}
