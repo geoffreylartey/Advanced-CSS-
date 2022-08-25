@@ -1,0 +1,22 @@
+<div class="align-vertically">
+  Demonstrating Vertically Align CSS Property!
+</div>
+
+.align-vertically {
+  background:black;
+  color: #eff542;
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+<div class="align-vertically">
+  Demonstrating Vertically Align CSS Property!
+</div>
+ 
+.align-vertically {
+  background:black;
+  color: #eff542;
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
