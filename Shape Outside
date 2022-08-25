@@ -1,0 +1,27 @@
+<section class="shape-outside">
+  <div class="shape-outside__circle">
+  </div>
+  <h2>Shape Outside CSS Property</h2>
+  <p>
+  Morbi tincidunt lectus non feugiat tristique. In blandit ornare odio sit amet cursus. In mollis dictum mollis. Suspendisse sed sagittis sem. Morbi euismod ligula id purus ornare, id gravida augue vestibulum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Praesent eu consectetur neque, a commodo arcu. Vivamus lorem ante, pulvinar eu cursus nec, congue ut tellus. Mauris sit amet risus auctor, dignissim ligula vel, commodo purus. Ut sapien nunc, dignissim eu diam quis, tempor scelerisque leo.
+  </p>
+</section>
+
+body {
+  display: flex;
+}
+
+.shape-outside {
+  padding-right: 10px;
+  width: 50%;
+}
+
+.shape-outside__circle {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: 	#DC143C;
+  margin: 25px 25px 5px 0;
+  float: left;
+  shape-outside: circle();
+} 
