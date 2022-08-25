@@ -1,0 +1,28 @@
+<ul>
+  <li>Lambda Test</li>
+  <li>CSS Tricks</li>
+  <li>in 2021</li>
+</ul>
+
+body{ 
+  font-family: Nurito;
+  font-size:22px;
+}
+
+ul > li:not(:last-child)::after {
+  content: ",";
+}
+<ul>
+  <li>Lambda Test</li>
+  <li>CSS Tricks</li>
+  <li>in 2021</li>
+</ul>
+ 
+body{ 
+  font-family: Nurito;
+  font-size:22px;
+}
+ 
+ul > li:not(:last-child)::after {
+  content: ",";
+}
