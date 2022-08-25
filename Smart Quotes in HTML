@@ -1,0 +1,12 @@
+<q>Smart quotes is the new trend in 2021!</q>
+
+q {
+    quotes: "“" "”";
+    font-size: 2rem;
+}
+<q>Smart quotes is the new trend in 2021!</q>
+ 
+q {
+    quotes: "“" "”";
+    font-size: 2rem;
+}
